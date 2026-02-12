@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --font-romantic: "Dancing Script", cursive;
+  --font-elegant: "Playfair Display", serif;
+  
+  --color-romantic-red: #ff6b6b;
+  --color-romantic-pink: #ff8e8e;
+  --color-romantic-light: #fff5f5;
+  --color-romantic-gold: #ffd93d;
+  --color-romantic-purple: #a8a4e6;
+  
+  --animate-float: float 3s ease-in-out infinite;
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-spin-slow: spin 8s linear infinite;
+  --animate-bounce-slow: bounce 2s infinite;
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+  }
+}
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+  
+  body {
+    @apply m-0 overflow-x-hidden;
+    background: linear-gradient(135deg, 
+      var(--color-rose-50) 0%, 
+      var(--color-pink-50) 50%, 
+      var(--color-red-50) 100%
+    );
+    font-family: var(--font-elegant);
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-pink-100 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, 
+      var(--color-romantic-red), 
+      var(--color-romantic-pink)
+    );
+    @apply rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, 
+      var(--color-red-500), 
+      var(--color-pink-500)
+    );
+  }
+}
+
+@layer components {
+  .romantic-shadow {
+    box-shadow: 0 0 20px rgba(255, 107, 107, 0.3);
+  }
+  
+  .hover-glow {
+    transition: all 0.3s ease;
+  }
+  
+  .hover-glow:hover {
+    box-shadow: 0 0 30px rgba(255, 107, 107, 0.5);
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;700;900&display=swap');
