@@ -37,7 +37,7 @@ const AcceptanceModal = ({ isOpen, onClose }) => {
           <circle cx="130" cy="45" r="5" fill="white" opacity="0.8" />
         </svg>
       ),
-      message: "Viste, soy vidente y tu evidente! 💕"
+      message: "Gracias por volver a elegirme! 💕"
     },
     {
       svg: (
@@ -99,7 +99,7 @@ const AcceptanceModal = ({ isOpen, onClose }) => {
           />
         </svg>
       ),
-      message: "Feliz San Valentín señorita! 💓"
+      message: "Prometo hacerte Feliz y ser mucho mejor! 💓"
     }
   ];
 
@@ -213,7 +213,7 @@ const AcceptanceModal = ({ isOpen, onClose }) => {
                       animate={{ opacity: 1 }}
                       transition={{ delay: 0.3 }}
                     >
-                      Me debes un cafecito ☕
+                      Nos debemos muchos besos
                     </motion.p>
 
                     <div className="flex justify-center gap-2 mt-3">

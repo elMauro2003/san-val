@@ -2,19 +2,19 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const LoveMessage = ({ isOpen }) => {
-  const loveText = `Espero que este pequeño detallito te guste y te saque al menos una sonrisa.
-Ya podremos ir a comernos un heladito luego, o ver una peli, o hablar y darnos la muela de horas que nos damos por telefono, pero de frente.
-No sabes cuantas risas me has sacado, y espero que sean muchas más, así como las noches de desvelo contando cualquier cosa, hasta lo más simple me resulta atractivo si me lo dices con tu forma sutil y ocurrente.
+  const loveText = 
+  `
+  El tiempo sigue avanzando, y con cada día que pasa me doy cuenta de que lo que siento por ti no se desgasta: crece. Crece en los silencios, en las rutinas, en los pequeños momentos que antes daba por sentados y que hoy valoro como tesoros. Y precisamente por eso hoy te escribo, no desde la comodidad de sentirme seguro, sino desde la honestidad de reconocer que fallé.
 
-Esta es una fecha para amar, querer y sentir, así que quería que supieras que yo hoy pienso en tí, en esos ojitos preciosos que tienes.
+No fui el que debía ser en algún momento. Me equivoqué, y no quiero justificarlo ni esconderlo detrás de excusas. Sé que mis errores pudieron lastimarte, y que las palabras, por bonitas que sean, no borran lo que pasó. Pero también sé que el amor verdadero no se mide solo en los aciertos, sino en la valentía de reconocer los fallos y en la disposición de aprender de ellos.
 
-Podría dedicarte párrafos enteros diciéndote cositas lindas, pero ¿cómo describes algo que es fuera de lo ordinario? 
-¿Algo muy intenso, casi sublime, algo más allá de bueno? 🤔
-Ah, sí: inefable.
-Simplemente no puede ser descrito. Ni llegando al infinito sería suficiente.
-Así que mejor no intento atraparlo con palabras.
+No quiero un solo día sin ti. No quiero una sonrisa que no sea contigo, ni un plan que no te incluya, ni un futuro en el que no estés. Porque al final, todo lo que hago tiene sentido cuando pienso en compartirlo contigo.
 
-Un besazo y un abrazo psicológico, de esos que no se ven pero se sienten. 💕`;
+Te pido perdón de corazón. No un perdón vacío, sino uno que venga acompañado de cambios reales, de paciencia, de escucha y de todo el amor que soy capaz de darte. Y si me das la oportunidad, quiero demostrarte con hechos que lo que siento no es solo un sentimiento bonito: es una decisión diaria de elegirte, cuidarte y no volver a fallarte.
+
+Te amo. Hoy, mañana y cada día que el tiempo nos regale.                  
+                    
+  `;
 
   return (
     <motion.div

@@ -174,7 +174,7 @@ const LoveLetter = () => {
                   </motion.div>
                   
                   <h2 className="font-romantic text-4xl md:text-5xl text-romantic-red mb-4">
-                    Para ud cosa bella <br /> ;)
+                    Para ti mi amor <br /> ;)
                   </h2>
                   
                   <p className="font-elegant text-gray-600 text-lg mb-6">

@@ -242,9 +242,9 @@ const ValentineGame = ({ onAccept, onClose }) => {
 
   // Frase según el número de intentos
   const getMotivationalPhrase = () => {
-    if (attempts === 0) return "¿Quieres ser mi San Valentín? 💕";
-    if (attempts < 3) return "¡Inténtalo de nuevo! skdaskdkask";
-    if (attempts < 6) return "¡Ya casi! El botón Sí se hace más grande 💝";
+    if (attempts === 0) return "Quieres seguir siendo mi Novia? 💕";
+    if (attempts < 3) return "¡Inténtalo de nuevo!";
+    if (attempts < 6) return "¡Ya casi! 💝";
     if (attempts < 10) return "No puedes escapar de tu destino... 💘";
     if (attempts < 15) return "Te veo enredá 💪❤️";
     if (attempts < 20) return "¡Ríndete! El Sí es tu única opción 🎉💖";

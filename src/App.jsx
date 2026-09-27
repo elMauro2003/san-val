@@ -25,7 +25,7 @@ function App() {
 
       {/* Footer decorativo */}
       <footer className="absolute bottom-0 left-0 right-0 text-center py-4 text-romantic-red/60 font-romantic text-lg z-20">
-        Con cariño de Mauro para Jenny ❤️
+        Con cariño de Frank para Maria Karla ❤️
       </footer>
     </div>
   );
